@@ -1,0 +1,69 @@
+:root {
+    --fuschia: #c90057;
+    --darkgrey: #2e2e2e;
+    --darkfuschia: #820034;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.titletext {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titletext h1 {
+    font-size: 375%;
+    
+    padding: 64px;
+    color: var(--darkgrey);
+    background-color: var(--fuschia);
+}
+
+body nav {
+
+    font-size: 120%;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--fuschia);
+    border-bottom: 20px;
+    border-color: var(--fuschia);
+    margin: 10px;
+    
+}
+
+body nav a {
+    padding: 14px 20px;
+}
+
+.mainpanels {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+.panel {
+    padding: 10px;
+    width: 250px;
+    text-align: left;
+    border-style: solid;
+    border-width: 4px;
+    border-color: var(--fuschia);
+    
+
+}
+
+.panel header {
+    font-size: 200%;
+    font-weight: bolder;
+    background-color: var(--fuschia);
+}
